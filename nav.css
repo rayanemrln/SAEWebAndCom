@@ -24,8 +24,8 @@
 }
 
 .flex-nav > div {
-    width : 20%;
-    height: 100%;
+    width : 300px;
+    height: 100px;
     margin-left: 5%;
 } 
 
@@ -34,14 +34,14 @@ main ul li{
 }
 
 .menuphoto {
-    width: 108%;
-    height: 100%;
+    width: 300px;
+    height: 100px;
     align-items: flex-start;
 }
 
 
-.horizontalmenu {
-    margin-right: 15%;
+.flex-nav {
+    justify-content: center;
 }
 
 header ul {
