@@ -1,16 +1,15 @@
-var btn = document.querySelector('input');
-var txt = document.querySelector('p');
-
-
-
-function updateBtn() {
-  if (btn.value === 'Démarrer la machine') {
-    btn.value = 'Arrêter la machine';
-    txt.textContent = 'La machine est démarrée !';
-  } else {
-    btn.value = 'Démarrer la machine';
-    txt.textContent = 'La machine est arrêtée.';
-  }
-}
-
-btn.addEventListener('click', updateBtn);
+const btns = document.querySelectorAll('.divbtn')
+let elemIndex= 0;
+console.log(btns)
+btns.forEach((btnElem, key)=>{
+    elemIndex = key + 1;
+    console.log(`.qcm-${elemIndex} .divbtn button`)
+    document.querySelector(`.qcm-${elemIndex} .divbtn button`).addEventListener('click',(event)=>{
+      console.log(event.target.closest('.qcm'))
+        const elemIndexQuestion =Number.parseInt(event.target.closest('.qcm').classList[1].split('-')[1])
+        if(elemIndexQuestion!==btns.length){
+            document.querySelector(`.qcm.qcm-${elemIndexQuestion}`).classList.remove('active')
+            document.querySelector(`.qcm.qcm-${elemIndexQuestion+1}`).classList.add('active')
+        }
+    })
+})
