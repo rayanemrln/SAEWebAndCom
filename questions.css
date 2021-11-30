@@ -77,27 +77,17 @@ main > ul li p, main > ul h3 {
 /* ON OEUT REVERSE UNE KEYFRAME */
 /* ON OEUT REVERSE UNE KEYFRAME */
 
+.active {
+    animation: Smaller;
+    animation-duration: 1.5s;
+}
+
 @keyframes Smaller {
     from {
-        width: 100% ;
-        opacity: 15%;
+        opacity: 0%;
     }
     
     to {
-        width: 75% ;
-        opacity: 15%;
-    }
-}
-
-
-@keyframes Bigger {
-    from {
-        width: 75% ;
-        opacity: 15%;
-    }
-
-    to {
-        width: 100%;
-        opacity: 100% ;
+        opacity: 100%;
     }
 }
