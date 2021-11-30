@@ -64,11 +64,7 @@ main > ul li p, main > ul h3 {
     align-items: center;
 }
 
-#maindiv{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 .text-answers {
     font-size: medium;
     color: white;
