@@ -14,8 +14,8 @@
     background-color: transparent;
     color: white;
 }
-
 .flex-nav {
+    z-index: 10;
     display : flex;
     background: #8F2D56;
     position: sticky;
