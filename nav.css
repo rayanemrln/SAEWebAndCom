@@ -20,11 +20,10 @@
     background: #8F2D56;
     position: sticky;
     margin-top: 0;
-    justify-content: space-between;
 }
 
 .flex-nav > div {
-    width : 300px;
+    /* width : 300px; */
     height: 100px;
 } 
 
@@ -35,7 +34,7 @@
 }
 
 .flex-nav {
-    justify-content: center;
+    justify-content: space-between;
 }
 
 header ul {
@@ -52,4 +51,10 @@ header {
     display: inline-block;
     padding-inline: 10px;
     align-items: flex-end;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.align {
+    width: 100px;
 }
