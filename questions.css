@@ -5,11 +5,22 @@ main > ul {
     margin-right: 30px;
     padding :10px;
     padding-left: 50px;
+    background : red;
+    border-radius: 50px;
+}
+.qcm {
+    display: none;
+    grid-template-columns: 85% 15%;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding :10px;
+    padding-left: 50px;
     background : linear-gradient(#9400D3, #800080);
     border-radius: 50px;
 }
-main > ul.active{
-    display: grid;
+
+.qcm.active{
+    display: grid ;
 }
 
 /* A voir avec le prof, bete d'idée mais ca marche pas */
@@ -90,8 +101,8 @@ main > ul li p, main > ul h3 {
     }
     
     to {
-        opacity: 100%;
-        width: 100%;
+        opacity: 91%;
+        width: 91%;
         height: 0%;
     }
 }
