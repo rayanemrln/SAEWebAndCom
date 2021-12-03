@@ -10,7 +10,7 @@
 }
 
 .menu a, .menu-act a {
-/*     display: block; */
+    display: block; 
 }
 
 .menu a:hover {
@@ -26,10 +26,6 @@
     position: sticky;
     margin-top: 0;
 }
-
-/* .flex-nav > div {
-     height: 100px; 
-}  */
 
 .menuphoto {
     width: 300px;
@@ -52,7 +48,6 @@ header {
 }
 
 .horizontalmenu {
-/*     display: inline block; */
     padding-inline: 10px;
     align-items: flex-end;
     justify-content: space-between;
@@ -84,12 +79,4 @@ header {
     padding: 20px;
     font-weight: 700; 
     border: none;
-}
-
-.flex-nav {
-/*     display: block; */
-}
-
-.menuuu {
-    display: inline-block;
 }
