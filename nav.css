@@ -1,12 +1,16 @@
 .menu a {
-    display: block;
     text-decoration: none;
     text-transform: uppercase;
     background-color: white;
+    text-align: center;
     color: #8F2D56;
     padding: 20px;
     font-weight: 700;
     border: 2px solid transparent;
+}
+
+.menu a, .menu-act a {
+    display: block; 
 }
 
 .menu a:hover {
@@ -14,31 +18,27 @@
     background-color: transparent;
     color: white;
 }
+
 .flex-nav {
-    z-index: 10;
+/*     z-index: 10; */
     display : flex;
     background: #8F2D56;
     position: sticky;
     margin-top: 0;
 }
 
-.flex-nav > div {
-    /* width : 300px; */
-    height: 100px;
-} 
-
 .menuphoto {
     width: 300px;
     height: 100px;
     align-content: flex-start;
-}
+} 
 
 .flex-nav {
     justify-content: space-between;
 }
 
 header ul {
-    padding-top: 1%;
+    padding-top: 0.5%;
     margin-top: 0%;
 }
 
@@ -47,8 +47,7 @@ header {
     top : 0;
 }
 
-.menu {
-    display: inline-block;
+.horizontalmenu {
     padding-inline: 10px;
     align-items: flex-end;
     justify-content: space-between;
@@ -57,4 +56,27 @@ header {
 
 .align {
     width: 100px;
+}
+
+.menu-act a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    color: #8F2D56;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+}
+
+.menu-act a:hover{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-weight: 700; 
+    border: none;
 }
