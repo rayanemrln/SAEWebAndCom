@@ -88,6 +88,9 @@ main > ul li p, main > ul h3 {
 .qcm div li div {
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 885px;
+    height: 40px;
+    overflow: hidden;
 }
 
 
@@ -99,25 +102,33 @@ main > ul li p, main > ul h3 {
 }
 
 @keyframes Smaller {
-    from {
+    0% {
         opacity: 0%;
         width: 0%;
-        height: 0%;
+        height: 91%;
     }
     
-    to {
+    50% {
+        opacity: 30%;
+        width: 70%;
+        height: 91%;
+    }
+    100% {
         opacity: 100%;
         width: 91%;
         height: 91%;
     }
 }
+
 input[type="checkbox"] + label {
-    animation: 1.5s linear forwards Smaller;
+        
 }
 #scrollbar {
     width: 100px;
     height: 80px;
-    background-color: rgba(255,255,255, 0);
+    position: absolute;
+    bottom: -10%;
+    background-color: rgba(255,0,0, 0);
 }
 #tdr{
     position: absolute;
