@@ -15,6 +15,7 @@ main > ul {
     margin-right: 30px;
     padding :10px;
     padding-left: 50px;
+    height: 350px;
     background : linear-gradient(#9400D3, #800080);
     border-radius: 50px;
 }
