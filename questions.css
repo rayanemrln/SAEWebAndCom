@@ -18,6 +18,7 @@ main > ul {
     height: 350px;
     background : linear-gradient(#9400D3, #800080);
     border-radius: 50px;
+
 }
 
 .qcm.active{
@@ -80,18 +81,24 @@ main > ul li p, main > ul h3 {
 .text-answers {
     font-size: medium;
     color: white;
+
 }
+
 
 .qcm div li div {
     margin-top: 2%;
     margin-bottom: 2%;
+    width: 885px;
+    height: 40px;
+    overflow: hidden;
 }
+
+
 /* ON OEUT REVERSE UNE KEYFRAME */
 /* ON OEUT REVERSE UNE KEYFRAME */
 
 .active {
-    animation: Smaller;
-    animation-duration: 1.5s;
+    animation: 1.5s linear forwards Smaller;
 }
 
 .rightqcm h3 {
@@ -99,11 +106,28 @@ main > ul li p, main > ul h3 {
 }
 
 @keyframes Smaller {
-    from {
+    0% {
         opacity: 0%;
     }
     
     to {
         opacity: 100%;
+
     }
+}
+
+input[type="checkbox"] + label {
+        
+}
+#scrollbar {
+    width: 100px;
+    height: 80px;
+    position: absolute;
+    bottom: -10%;
+    background-color: rgba(255,0,0, 0);
+}
+#tdr{
+    position: absolute;
+    margin-left: 70%;
+    margin-bottom: 2%;
 }
