@@ -94,16 +94,16 @@ main > ul li p, main > ul h3 {
     animation-duration: 1.5s;
 }
 
+.rightqcm h3 {
+    color: white;
+}
+
 @keyframes Smaller {
     from {
         opacity: 0%;
-        width: 0%;
-        height: 0%;
     }
     
     to {
-        opacity: 91%;
-        width: 91%;
-        height: 0%;
+        opacity: 100%;
     }
 }
