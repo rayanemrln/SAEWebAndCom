@@ -112,13 +112,13 @@ main > ul li p, main > ul h3 {
     
     to {
         opacity: 100%;
-
     }
 }
 
 input[type="checkbox"] + label {
         
 }
+
 #scrollbar {
     width: 100px;
     height: 80px;
