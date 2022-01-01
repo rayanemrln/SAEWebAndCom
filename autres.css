@@ -24,3 +24,8 @@
     height: 200px;
     left:700px;
 }
+
+.columns {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

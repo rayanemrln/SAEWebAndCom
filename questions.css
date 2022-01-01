@@ -8,6 +8,7 @@ main > ul {
     background : red;
     border-radius: 50px;
 }
+
 .qcm {
     display: none;
     grid-template-columns: 85% 15%;
@@ -18,24 +19,11 @@ main > ul {
     height: 450px;
     background : linear-gradient(#9400D3, #800080);
     border-radius: 50px;
-
 }
 
-.qcm.active{
-    display: grid ;
+.qcm.active {
+    display: grid;
 }
-
-/* A voir avec le prof, bete d'idée mais ca marche pas */
-/* main ul :hover {
-    margin-left: 15px;
-    margin-right: 15px;
-    padding:10px;
-    background : linear-gradient(#5900ff, #9932dd);
-    border-radius: 60px;
-    transition: 1s;
-} */
-
-
 
 .qcm div h3 {
     margin-left : 45px;
@@ -139,9 +127,6 @@ main > ul li p, main > ul h3 {
     overflow: hidden;
 }
 
-
-/* ON OEUT REVERSE UNE KEYFRAME */
-/* ON OEUT REVERSE UNE KEYFRAME */
 
 .active {
     animation: 1.5s linear forwards Smaller;
