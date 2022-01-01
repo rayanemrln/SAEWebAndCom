@@ -5,11 +5,14 @@
     margin: 10px;
 }
 #pres {
-    background-color: red;
+    background-color: rgb(215, 150, 227);
+    margin-left: 30%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px grey;
 }
 #prestext{
-    margin: 30px;
-    margin-left: 30%;
+    padding: 30px;
+    
 }
 
 .child1 {
@@ -44,14 +47,13 @@
     display: flex;
 }
 #testdiv{
-    border-radius: 30px;
+    border-radius: 50px;
     background-color: rgb(177, 69, 199);
     display: flex;
     margin-left: 20%;
     margin-top: 10%;
     flex-direction: column;
     text-align: center;
-    top:1px;
     box-shadow: 10px 10px 5px grey; 
 
 }
@@ -60,6 +62,11 @@
     height: 100px;
     border-radius: 100px;
     
+}
+#divchild1{
+    padding: 15px;
+    border-radius:50px; 
+    box-shadow: 10px 10px 5px grey;
 }
 .linked{
     margin: 50px;
