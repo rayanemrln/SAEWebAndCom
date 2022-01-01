@@ -1,8 +1,13 @@
+header{
+    z-index: 9;
+}
+main{
+    padding-top:170px;
+}
 .parent {
     width: 800px;
     height: 800px;
     margin: 10px;
-    z-index: 9;
 }
 
 .child1 {
@@ -19,7 +24,40 @@
     z-index: 1;
     margin: 30px;
     background: rgb(177, 69, 199);
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 180px;
     left:700px;
+}
+#imgiut{
+    width: 100%;
+}
+#divimgiut{
+    display: flex;
+}
+#testdiv{
+    border-radius: 30px;
+    background-color: rgb(177, 69, 199);
+    display: flex;
+    margin-left: 20%;
+    margin-top: 10%;
+    flex-direction: column;
+    text-align: center;
+    top:1px;
+    box-shadow: 10px 10px 5px grey; 
+
+}
+.imglinked{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    
+}
+.linked{
+    margin: 50px;
+
+    justify-content: center;
+}
+#imageslink {
+    display: flex;
+
 }
