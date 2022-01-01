@@ -1,5 +1,5 @@
 const btns = document.querySelectorAll('.divbtn')
-let elemIndex= 0;
+let elemIndex= 1;
 console.log(btns)
 btns.forEach((btnElem, key)=>{
     elemIndex = key + 1;

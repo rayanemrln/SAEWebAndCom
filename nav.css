@@ -28,8 +28,8 @@
 }
 
 .menuphoto {
-    width: 300px;
-    height: 100px;
+    width: 280px;
+    height: 93px;
     align-content: flex-start;
 } 
 
@@ -38,7 +38,6 @@
 }
 
 header ul {
-    padding-top: 0.5%;
     margin-top: 0%;
     display:flex;
 }
