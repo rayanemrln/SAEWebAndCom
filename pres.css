@@ -1,13 +1,15 @@
-header{
-    z-index: 9;
-}
-main{
-    padding-top:170px;
-}
+
 .parent {
     width: 800px;
     height: 800px;
     margin: 10px;
+}
+#pres {
+    background-color: red;
+}
+#prestext{
+    margin: 30px;
+    margin-left: 30%;
 }
 
 .child1 {
@@ -30,6 +32,13 @@ main{
 }
 #imgiut{
     width: 100%;
+}
+
+#divimgiutimg {
+    border-radius: 60px;
+    box-shadow: 10px 10px 5px grey; 
+    width: 86%;
+    margin-left: 5%;
 }
 #divimgiut{
     display: flex;
