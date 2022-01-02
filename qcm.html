@@ -13,14 +13,14 @@
     <link rel="stylesheet" href="template.css" />
     <title>Où te trouveras tu dans 10 ans?</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <script src="script.js" defer></script>
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
 
   <body>
     <header>
       <div class="flex-nav">
         <div>
-          <img class="menuphoto" src="images/photo_menu.png" alt="logo site" />
+          <img class="menuphoto" src="images/photo_menu.png" />
         </div>
         <ul class="horizontalmenu">
           <li class="menu">
@@ -28,7 +28,7 @@
           </li>          
           <li class="menu">
             <a href="pres.html">Présentation</a>
-          </li> 
+          </li>
           <li class="menu">
             <a href="contact.html">Contactez-nous</a>
           </li>
@@ -62,24 +62,26 @@
       </h3>
       </div>
       <div id="maindiv">
-
       <form action="form.php" method="POST">
         <ul class="qcm qcm-1 active">
           <li>
             <div class="rightqcm">
               <h3>- Es tu prêt ?</h3>
               <div class="divbtn" id="btn-no1">
-              <button type="button" id="btnstart" data-tooltip="Cliquez ici pour valider">Commencer</button>
+              <button type="button" id="btnstart"data-tooltip="Cliquez ici pour valider">Commencer</button>
             </div>
             </div>
           </li>
+          <li></li>
         </ul>
 
       <ul class="qcm qcm-2">
+        <li>
         <div class="rightqcm">
         <h3>- Quel animal es-tu?</h3>
+        </li>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q2R1" name="Q2R1">
             <label class="text-answers" for="Q2R1">Plutôt un lion, un chat. Enfin un félin en
               tout genre, libre comme l'air et faisant sa vie comme bon lui
@@ -131,13 +133,11 @@
       <ul class="qcm qcm-3">
         <div class="rightqcm">
         <h3>- Si tu avais le choix ...</h3>
-        <li>
-        <div class="divtextbtn qcmfirstq">
+        <div class="divtextbtn">
           <input type="checkbox" id="Q3R1" name="Q3R1">
           <label class="text-answers" for="Q3R1">Tu partirais en voyage dès à présent.
           </label>
         </div>
-        </li>
         <li>
           <div class="divtextbtn">
             <input type="checkbox" id="Q3R2" name="Q3R2">
@@ -164,7 +164,7 @@
         <div class="rightqcm">
         <h3>- Es-tu plus théorique ou manuel ?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q4R1" name="Q4R1">
             <label class="text-answers" for="Q4R1">Théorique.
             </label>
@@ -187,7 +187,7 @@
         <div class="rightqcm">
         <h3>- Combien d'heures passes-tu à travailler par semaine?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q5R1" name="Q5R1">
             <label class="text-answers" for="Q5R1">2 ou moins
             </label>
@@ -217,7 +217,7 @@
         <div class="rightqcm">
         <h3>- Quel légume es-tu?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q6R1" name="Q6R1">
             <label class="text-answers" for="Q6R1">Un légume rouge tel une tomate ou un
             poivron.
@@ -234,7 +234,8 @@
         <li>
           <div class="divtextbtn">
             <input type="checkbox" id="Q6R3" name="Q6R3">
-            <label class="text-answers" for="Q6R3">Cette question n'a que peu d'intérêt à mes yeux.
+            <label class="text-answers" for="Q6R3">Je m'en bat la race de ta question de
+            merde.
             </label>
           </div>
         </li>
@@ -255,7 +256,7 @@
         <div class="rightqcm">
         <h3>- Penses-tu être de capable d'augmenter ton rythme de travail?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q7R1" name="Q7R1">
             <label class="text-answers" for="Q7R1">Oui.
             </label>
@@ -286,7 +287,7 @@
         <div class="rightqcm">
         <h3>- Es tu un geek ou un nerd?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q8R1" name="Q8R1">
             <label class="text-answers" for="Q8R1">Tout ce que t'aimes, c'est manger des
             cartes graphique, clés usb.. Tout ça là, t'aimes bien.
@@ -327,7 +328,7 @@
           - Que penserais-tu d'être à l'aube d'une nouvelle ère informatique.
         </h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q9R1" name="Q9R1">
             <label class="text-answers" for="Q9R1">Balek
             </label>
@@ -360,7 +361,7 @@
           supérieures?
         </h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q10R1" name="Q10R1">
             <label class="text-answers" for="Q10R1">Oui, je pense être renseigné là dessus.
             </label>
@@ -384,7 +385,7 @@
         <div class="rightqcm">
         <h3>- Les études supérieurs te font-elles peur?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q11R1" name="Q11R1">
             <label class="text-answers" for="Q11R1">Oui.
             </label>
@@ -407,7 +408,7 @@
         <div class="rightqcm">
         <h3>- Si oui, pourquoi?</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q12R1" name="Q12R1">
             <label class="text-answers" for="Q12R1">Surcharge de Travail.
             </label>
@@ -464,7 +465,7 @@
           resteriez vous passif par peur de l'inconnu ou par appréhension?
         </h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q13R1" name="Q13R1">
             <label class="text-answers" for="Q13R1">J'ouvre la porte.
             </label>
@@ -495,7 +496,7 @@
         <div class="rightqcm">
         <h3>- Qu'as tu pensé de ce quiz ? (Note sur 10)</h3>
         <li>
-          <div class="divtextbtn qcmfirstq">
+          <div class="divtextbtn">
             <input type="checkbox" id="Q14R1" name="Q14R1">
             <label class="text-answers" for="Q14R1">Moins de 3
             </label>
@@ -535,10 +536,11 @@
         </div>
       </ul>
 
-      <ul class="qcm qcm-15" id="ladiff">
+      <ul class="qcm qcm-15">
         <div class="rightqcm">
         <h3>Merci d'avoir pris le temps de répondre ! Notre équipe de chercheurs expérimentés espérons que ça t'a aidé !</h3>
         <div class="divbtn" id="btn-no15">
+          <!--  Pour l'instant ca marche pas du tout mais je garde espoir <button type="button" data-tooltip="Cliquez ici pour en finir" action="qcm.php">Terminer</button> -->
           <button type="submit" id="btnend" data-tooltip="Cliquez ici pour envoyer les résultats">Envoyer les résultats</button>
         </div>
         </div>
